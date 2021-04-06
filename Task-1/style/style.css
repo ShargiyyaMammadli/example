@@ -1,0 +1,295 @@
+body {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.topSide::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.topSide .container > div {
+  float: left;
+  width: 23%;
+}
+
+.topSide .container > div:not(:first-child, :last-child) {
+  padding-left: 30px;
+}
+
+.logo {
+  text-align: center;
+  background-color: gray;
+  padding: 10px 0;
+}
+
+.contact p:last-child {
+  margin-top: 5px;
+}
+
+.sendMail span:first-child {
+  padding-right: 10px;
+}
+
+.follow {
+  margin-top: 5px;
+}
+
+.follow span:not(:first-child) {
+  padding-left: 10px;
+}
+
+.topSide .container .login {
+  float: right;
+  text-align: center;
+  background-color: gray;
+  padding: 10px 0;
+}
+
+.bottomSide .container .menu li {
+  float: left;
+  width: 10%;
+}
+
+.bottomSide .container .menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottomSide {
+  margin-top: 20px;
+  background-color: gray;
+  padding: 10px 0 30px;
+}
+
+#carousel {
+  margin-top: 20px;
+}
+
+#carousel .slider {
+  text-align: center;
+  padding: 160px 0;
+  background-color: gray;
+}
+
+#first-cards {
+  margin-top: 20px;
+}
+
+.card-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#first-cards .card-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#first-cards .card-wrapper .card {
+  float: left;
+  width: 23%;
+  text-align: center;
+  background-color: gray;
+  padding: 60px 0;
+}
+
+#first-cards .card-wrapper .card:not(:first-child) {
+  margin-left: 30px;
+}
+
+#second-cards {
+  margin-top: 20px;
+}
+
+#second-cards .card-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#second-cards .card-wrapper .cardItem {
+  float: left;
+  width: 23%;
+}
+
+#second-cards .card-wrapper .cardItem:not(:first-child) {
+  margin-left: 30px;
+}
+
+#second-cards .card-wrapper .cardItem .card {
+  background-color: gray;
+  padding: 60px 0;
+}
+
+#second-cards .card-wrapper .cardItem .card-footer {
+  text-align: center;
+}
+
+#why-us {
+  margin-top: 20px;
+}
+
+#why-us .section-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#why-us .section-content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#why-us .section-content .sectionItem {
+  float: left;
+  width: 29%;
+}
+
+#why-us .section-content .sectionItem {
+  margin-left: 40px;
+}
+
+.section-footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: gray;
+  padding: 150px;
+}
+
+#thirth-cards {
+  margin-top: 20px;
+}
+
+#thirth-cards .card-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#thirth-cards .cardItem {
+  float: left;
+  width: 23%;
+}
+
+#thirth-cards .cardItem:not(:first-child) {
+  margin-left: 30px;
+}
+
+#thirth-cards .cardItem .card {
+  background-color: gray;
+  padding: 60px 0;
+  margin-bottom: 10px;
+}
+
+#thirth-cards .cardItem .card-description h1 {
+  margin-bottom: 10px;
+}
+
+#news {
+  margin-top: 20px;
+}
+
+#news .card-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#news .cardItem {
+  float: left;
+  width: 48%;
+}
+
+#news .cardItem:not(:first-child) {
+  margin-left: 45px;
+}
+
+#news .card {
+  background-color: gray;
+  padding: 170px 0;
+  margin-bottom: 10px;
+}
+
+#news .cardItem .card-description p {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: gray;
+  padding: 40px 0 30px;
+  margin-bottom: 40px;
+}
+
+.footer-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-content {
+  float: left;
+  width: 48%;
+}
+
+.footer-content:not(:first-child) {
+  margin-left: 45px;
+}
+
+.footer-content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-content .contentItem {
+  float: left;
+  width: 48%;
+}
+
+.footer-content .contentItem:not(:first-child) {
+  margin-left: 21px;
+}
+
+.footer-content .contentItem p:not(:first-child) {
+  margin-top: 10px;
+}
+
+.footer-content .contentItem .logo {
+  margin-top: 30px;
+}
+
+.footer-content .contentItem .social-media {
+  margin-top: 10px;
+}
+
+.footer-content .contentItem .follow {
+  margin-top: 10px;
+}
+
+.footer-content .contentItem .card {
+  background-color: #ccc;
+  padding: 50px 0;
+}
